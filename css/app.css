@@ -1,0 +1,44 @@
+body{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    padding-top: 50px;
+}
+
+.wrapper1 a, .wrapper1 a:hover {
+    color: white;
+}
+
+.picture {
+    border: 5px solid white;
+    margin: auto;
+}
+
+.row {
+    padding: 50px 0px 50px 0px;
+}
+
+.wrapper1 {
+    background: url("../img/bg1.png") no-repeat center center / cover;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.wrapper1 h1{
+    color: white;
+    line-height:1.4;
+}
+
+.wrapper2 {
+	text-align: center;
+}
+
+.wrapper3 {
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.05) inset, 0px 2px 3px 0px rgba(0, 0, 0, 0.1) inset;
+    padding: 50px 0px 50px 0px;
+}
+
+.wrapper4 {
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.05) inset, 0px 2px 3px 0px rgba(0, 0, 0, 0.1) inset;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+}
