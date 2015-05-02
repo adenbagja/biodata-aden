@@ -26,6 +26,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Scroll -->
     <script src="js/scroll.js"></script>
+    <!-- Scrollspy -->
+    <script src="js/scrollspy.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -34,7 +36,7 @@
     <![endif]-->
 </head>
     
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="50">
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -47,7 +49,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="scrollTo" href="#home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+                    <li><a class="scrollTo active" href="#home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
                     <li><a class="scrollTo" href="#competences">Compétences</a></li>
                     <li><a class="scrollTo" href="#formation">Formation</a></li>
                     <li><a class="scrollTo" href="#projet">Projets</a></li>
@@ -350,6 +352,7 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/parallax.js"></script>
+    
 </body>
     
 </html>

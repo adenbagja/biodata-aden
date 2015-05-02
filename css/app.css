@@ -2,6 +2,7 @@ body{
     font-family: "Open Sans",sans-serif;
     font-weight: 300;
     padding-top: 50px;
+    position: relative;
 }
 
 .wrapper1 a, .wrapper1 a:hover {
