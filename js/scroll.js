@@ -10,5 +10,3 @@ $(document).ready(function () {
          }, 900, 'swing');
      });
  });
- 
- 
