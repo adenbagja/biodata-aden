@@ -5,6 +5,10 @@ ehthumbs.db
 # Folder config file
 Desktop.ini
 
+# Github script
+build.sh
+git.php
+
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
